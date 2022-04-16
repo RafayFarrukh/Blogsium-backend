@@ -1,0 +1,23 @@
+{
+  "name": "blogsium",
+  "version": "1.0.0",
+  "description": "For Blog posting",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Rafay Farrukh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": "17.0.1",
+    "npm": "8.5.4"
+  }
+}
