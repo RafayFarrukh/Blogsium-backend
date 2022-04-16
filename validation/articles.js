@@ -1,4 +1,4 @@
-import Validator from "Validator";
+import Validator from "validator";
 import isEmpty from "./is-empty.js";
 export default function validateArticle(data) {
   let errors = {};
