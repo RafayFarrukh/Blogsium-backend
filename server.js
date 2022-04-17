@@ -4,7 +4,6 @@ import dbConnect from "./db/db-connect.js";
 
 import articles from "./routes/articles.js";
 
-//route not exist middleware
 import notFoundRoute from "./middleware/notFound.js";
 
 app.use(express.json());
