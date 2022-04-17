@@ -8,7 +8,7 @@ import notFoundRoute from "./middleware/notFound.js";
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("welceom");
+  res.send("welcome to backend of Blogsium");
 });
 
 app.use("/api/articles", articles);
